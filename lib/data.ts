@@ -81,13 +81,13 @@ export const projectsData = [
   {
     title: "Evently",
     description:
-      "Event platform for ordering event tickets. I was the full-stack developer. It has features like ticket booking, stripe payment and pagination.",
+      "Event platform for ordering event tickets. It has features like ticket booking, stripe payment and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stripe", "Clerk"],
     imageUrl: evently,
   },
   {
     title: "Movie App",
-    description: "A personal app for movie ticket booking system",
+    description: "A personal app for movie ticket booking system.",
     tags: ["React", "React Native", "TMDB Api", "StyleSheet"],
     imageUrl: movie,
   },

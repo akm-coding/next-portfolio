@@ -19,8 +19,8 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After passing with a diploma in High School Diploma, I decided to pursue
-        my passion for programming. I enrolled in a coding bootcamp and learned
+        After passing with a diploma in High School, I decided to pursue my
+        passion for programming. I enrolled in a coding bootcamp and learned
         professional web development. My favorite part of programming is the
         problem-solving aspect. I love the feeling of finally figuring out a
         solution to a problem. My core stack is React, React Native, Next.js,
