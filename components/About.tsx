@@ -19,16 +19,13 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After passing with a diploma in High School, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned
-        professional web development. My favorite part of programming is the
-        problem-solving aspect. I love the feeling of finally figuring out a
-        solution to a problem. My core stack is React, React Native, Next.js,
-        Node.js, and MongoDB . I am also familiar with TypeScript and any other
-        libraries. I am always looking to learn new technologies. I am currently
-        looking for a full-time position as a software developer. When I'm not
-        coding, I enjoy playing video games, watching movies, and playing with
-        my dog. I also enjoy learning new things. I am currently learning about
+        I'm a mobile developer with 2 years experiences and a passion for
+        creating web and mobile applications. I'm a good team player and highly
+        motivated to learn and grow. Currently, I'm focusing on building dynamic
+        and scalable user interfaces with React (Next.js) and have experience
+        with concepts like component creation, state management using Redux, and
+        API integration. I'm always eager to learn new technologies and
+        contribute to challenging projects. I am currently learning about
         <span className="font-bold"> Kotlin & Golang</span> programming
         language.
       </p>

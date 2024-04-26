@@ -73,6 +73,7 @@ export const projectsData = [
       "React Stream Video",
     ],
     imageUrl: yoom,
+    projectUrl: "https://akm-meet.vercel.app/",
   },
   {
     title: "Evently",
@@ -80,6 +81,15 @@ export const projectsData = [
       "Event platform for ordering event tickets. It has features like ticket booking, stripe payment and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stripe", "Clerk"],
     imageUrl: evently,
+    projectUrl: "https://evently-delta-eight.vercel.app/",
+  },
+  {
+    title: "Cars Hub",
+    description:
+      "A car catalog website that can browse a selection of cars, view their specifications, and potentially filter or search for specific models",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "ShadcnUI"],
+    imageUrl: carhub,
+    projectUrl: "https://cars-hub-iota.vercel.app/",
   },
   {
     title: "Movie App",
