@@ -96,6 +96,7 @@ export const projectsData = [
     description: "A personal app for movie ticket booking system.",
     tags: ["React", "React Native", "TMDB Api", "StyleSheet"],
     imageUrl: movie,
+    projectUrl: "",
   },
 ] as const;
 
