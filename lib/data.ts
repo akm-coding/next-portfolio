@@ -62,7 +62,7 @@ export const projectsData = [
   {
     title: "Book Store",
     description:
-      "I made a book store website using React.Js, and TailwindCSS for front end client site, and Node.Js, Express.Js, and MongoDb for server site. In this site, you can view, create, update, and delete books.  And this project also makes me the strong understanding of backend Node.Js, and Express.Js.  Unfortunately, I am trying to host the backend server to vercel, so you can't view the demo of this project, but you can see my code that I will add my source code.  I apology for that",
+      "I made a book store using React.JS, TailwindCSS, Node.JS, Express.JS, and MongoDb. This makes me understanding of backend knowledge Node.JS, Express.JS.",
     tags: [
       "JavaScript",
       "React",
@@ -77,7 +77,7 @@ export const projectsData = [
   {
     title: "Yoom",
     description:
-      "I built a meeting platform just like a zoom. It is not zoom clone but will look like a zoom meeting platform. ",
+      "I built a meeting platform just like a zoom. It is not zoom clone but will look like a zoom meeting platform.",
     tags: [
       "React",
       "TypeScript",
@@ -122,10 +122,11 @@ export const skillsData = [
   "TypeScript",
   "React",
   "React Native",
-  "Next.js",
-  "Git",
-  "Tailwind CSS",
-  "MongoDB",
   "Redux",
-  "Node.js",
+  "Tailwind CSS",
+  "NextJs",
+  "NodeJs",
+  "ExpressJs",
+  "MongoDB",
+  "Git",
 ] as const;
