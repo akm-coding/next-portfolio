@@ -19,15 +19,13 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a mobile developer with 2 years experiences and a passion for
-        creating web and mobile applications. I'm a good team player and highly
-        motivated to learn and grow. Currently, I'm focusing on building dynamic
-        and scalable user interfaces with React (Next.js) and have experience
-        with concepts like component creation, state management using Redux, and
-        API integration. I'm always eager to learn new technologies and
-        contribute to challenging projects. I am currently learning about
-        <span className="font-bold"> Kotlin & Golang</span> programming
-        language.
+        I'm a front end developer with a passion for creating web and mobile
+        applications. I'm a good team player and highly motivated to learn and
+        grow. Currently, I'm focusing on building dynamic and scalable user
+        interfaces with React (Next.js) and have experience with concepts like
+        component creation, state management using Redux, and API integration.
+        I'm always eager to learn new technologies and contribute to challenging
+        projects.
       </p>
     </motion.section>
   );

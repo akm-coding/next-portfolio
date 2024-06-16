@@ -60,21 +60,6 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Book Store",
-    description:
-      "I made a book store using React.JS, TailwindCSS, Node.JS, Express.JS, and MongoDb. This makes me understanding of backend knowledge Node.JS, Express.JS.",
-    tags: [
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Node.Js",
-      "Express.Js",
-      "MongoDB",
-    ],
-    imageUrl: bookStore,
-    projectUrl: "https://github.com/akm-coding/mern-book-store",
-  },
-  {
     title: "Yoom",
     description:
       "I built a meeting platform just like a zoom. It is not zoom clone but will look like a zoom meeting platform.",
@@ -112,6 +97,21 @@ export const projectsData = [
     tags: ["React", "React Native", "TMDB Api", "StyleSheet"],
     imageUrl: movie,
     projectUrl: "https://github.com/aungkaungmyat-is-coding/movie-app",
+  },
+  {
+    title: "Book Store",
+    description:
+      "I made a book store using React.JS, TailwindCSS, Node.JS, Express.JS, and MongoDb. This makes me understanding of backend knowledge Node.JS, Express.JS.",
+    tags: [
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Node.Js",
+      "Express.Js",
+      "MongoDB",
+    ],
+    imageUrl: bookStore,
+    projectUrl: "https://github.com/akm-coding/mern-book-store",
   },
 ] as const;
 
