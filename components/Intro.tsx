@@ -89,7 +89,7 @@ const Intro = () => {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Modified_Resume_24.04.2024.pdf"
+          href="/AKM_Resume.pdf"
           download
         >
           Download CV
