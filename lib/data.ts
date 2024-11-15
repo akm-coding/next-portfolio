@@ -7,6 +7,10 @@ import bookStore from "@/public/bookStore.png";
 import carhub from "@/public/carhub.png";
 import evently from "@/public/evently.png";
 import movie from "@/public/movieapp.png";
+import musicfy from "@/public/musicfy.png";
+import gtbPay from "@/public/gtb_pay.png";
+import gtbAgent from "@/public/gtb_agent.png";
+import ilbc from "@/public/ilbc_quick_learn.png";
 
 export const links = [
   {
@@ -26,6 +30,10 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -33,32 +41,107 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Fairway Technology",
+    title: "Senior Mobile Developer",
+    location: "Remote",
+    description:
+      "I'm currently working as a Senior Mobile Developer at Myan Ants, focusing on building scalable mobile applications using React Native, TypeScript, and Expo. I collaborate with cross-functional teams to deliver high-quality features, optimize performance, and enhance user experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sept 2024 - present",
+  },
+  {
+    title: "Mid Mobile Developer",
     location: "Yangon, Myanmar",
     description:
-      "I graduated after 1 year of studying at Fairway Technology. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2023",
+      "I built an e-learning application at Theory IT Solutions, similar to TikTok, using React Native and react-native-video. The app provided engaging video-based educational content to enhance user learning experiences.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - Jan 2024",
   },
   {
     title: "Mobile Developer",
     location: "Yangon, Myanmar",
     description:
-      "I worked as a mobile developer for 2 years at ACE Data Systems Ltd. I also upskilled to the full stack.",
+      "I worked as a Mobile Developer at ACE Data Systems Ltd, where I developed mobile banking applications, leveraging React Native and TypeScript to create secure and user-friendly banking solutions. Additionally, upskilled to full-stack development during my time there.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
+    date: "Jan 2023 - April 2024",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Fairway Technology",
     location: "Yangon, Myanmar",
     description:
-      "I'm now a full-stack developer seeking for remote full-time jobs. My stack includes React,React Native, Next.js, TypeScript, TailwindCSS, ShadcnUi, and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2024 - present",
+      "I graduated after 1 year of studying at Fairway Technology. I immediately found a job as a front-end developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jul 2022 - Jan 2023",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ILBC Quick Learn",
+    description:
+      "An e-learning application that offers an engaging video scroll experience.",
+    tags: [
+      "React Native",
+      "TypeScript",
+      "React Navigation",
+      "Redux Toolkit",
+      "Axios",
+      "React Query",
+      "react-native-video",
+      "Other NPM Packages",
+    ],
+    imageUrl: ilbc,
+    projectUrl:
+      "https://play.google.com/store/apps/details?id=com.quick_learn_mobile",
+  },
+  {
+    title: "GTB Pay",
+    description:
+      "A comprehensive mobile banking app built with React Native CLI, supporting features like auth, transfers, and top-ups.",
+    tags: [
+      "React Native",
+      "TypeScript",
+      "React Navigation",
+      "Redux Toolkit",
+      "Axios",
+      "React Query",
+    ],
+    imageUrl: gtbPay,
+    projectUrl: "https://play.google.com/store/apps/details?id=com.gtbwallet",
+  },
+  {
+    title: "GTB Agent",
+    description:
+      "A comprehensive mobile banking app built with React Native CLI, supporting features like auth, transfers, and top-ups.",
+    tags: [
+      "React Native",
+      "TypeScript",
+      "React Navigation",
+      "Redux Toolkit",
+      "Axios",
+      "React Query",
+      "Other NPM Packages",
+    ],
+    imageUrl: gtbAgent,
+    projectUrl: "https://play.google.com/store/apps/details?id=com.gtbagent",
+  },
+  {
+    title: "Musicfy",
+    description:
+      "A full-stack music streaming app with features like authentication, and real-time chat.",
+    tags: [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Shadcn",
+      "Node.Js",
+      "Express.Js",
+      "Socket.io",
+      "MongoDB",
+      "Clerk",
+    ],
+    imageUrl: musicfy,
+    projectUrl: "https://realtime-music-site.onrender.com",
+  },
   {
     title: "Yoom",
     description:
@@ -123,10 +206,21 @@ export const skillsData = [
   "React",
   "React Native",
   "Redux",
+  "Redux Toolkit",
+  "Zustand",
   "Tailwind CSS",
-  "NextJs",
-  "NodeJs",
-  "ExpressJs",
+  "MUI",
+  "ShadCn Ui",
+  "Next.Js",
+  "Node.Js",
+  "Express.Js",
   "MongoDB",
+  "MySql",
+  "MsSql",
+  "PostgreSql",
+  "Axios",
+  "React Query",
+  "Firebase",
   "Git",
+  "GitHub",
 ] as const;

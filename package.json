@@ -12,7 +12,6 @@
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.3.2",
-    "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "clsx": "^1.2.1",
     "eslint": "8.43.0",
@@ -29,7 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^18.3.12",
     "@types/react-dom": "^18",
     "@types/react-vertical-timeline-component": "^3.3.6",
     "autoprefixer": "^10.4.19",
