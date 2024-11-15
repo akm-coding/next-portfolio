@@ -54,7 +54,7 @@ export const experiencesData = [
     description:
       "I built an e-learning application at Theory IT Solutions, similar to TikTok, using React Native and react-native-video. The app provided engaging video-based educational content to enhance user learning experiences.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2023 - Jan 2024",
+    date: "Nov 2023 - Mar 2024",
   },
   {
     title: "Mobile Developer",
