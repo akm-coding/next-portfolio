@@ -41,12 +41,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Senior Mobile Developer",
+    title: "Mid-Senior Mobile Developer",
     location: "Remote",
     description:
       "I'm currently working as a Senior Mobile Developer at Myan Ants, focusing on building scalable mobile applications using React Native, TypeScript, and Expo. I collaborate with cross-functional teams to deliver high-quality features, optimize performance, and enhance user experience.",
     icon: React.createElement(CgWorkAlt),
-    date: "Sept 2024 - present",
+    date: "Sept 2024 - Dec 2024",
   },
   {
     title: "Mid Mobile Developer",
@@ -57,7 +57,7 @@ export const experiencesData = [
     date: "Nov 2023 - Mar 2024",
   },
   {
-    title: "Mobile Developer",
+    title: "Junior-Mid Mobile Developer",
     location: "Yangon, Myanmar",
     description:
       "I worked as a Mobile Developer at ACE Data Systems Ltd, where I developed mobile banking applications, leveraging React Native and TypeScript to create secure and user-friendly banking solutions. Additionally, upskilled to full-stack development during my time there.",
