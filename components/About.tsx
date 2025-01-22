@@ -19,13 +19,11 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a front end developer with a passion for creating web and mobile
-        applications. I'm a good team player and highly motivated to learn and
-        grow. Currently, I'm focusing on building dynamic and scalable user
-        interfaces with React (Next.js) and have experience with concepts like
-        component creation, state management using Redux, and API integration.
-        I'm always eager to learn new technologies and contribute to challenging
-        projects.
+        A Frontend developer with experience building web and mobile
+        applications. I focus on creating user interfaces with React (Next.js),
+        and I have experience in component creation, state management with
+        Redux, and API integration. I'm always looking to learn new technologies
+        and take on challenging projects.
       </p>
     </motion.section>
   );
