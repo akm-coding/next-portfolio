@@ -19,11 +19,10 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        A Frontend developer with experience building web and mobile
-        applications. I focus on creating user interfaces with React (Next.js),
-        and I have experience in component creation, state management with
-        Redux, and API integration. I'm always looking to learn new technologies
-        and take on challenging projects.
+        Frontend Developer with three years of experience building responsive
+        web applications using React and modern front-end tools. Skilled in
+        developing user interfaces, managing state, and improving performance
+        for web and mobile platforms.
       </p>
     </motion.section>
   );
