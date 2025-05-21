@@ -19,10 +19,20 @@ const About = () => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Frontend Developer with three years of experience building responsive
-        web applications using React and modern front-end tools. Skilled in
-        developing user interfaces, managing state, and improving performance
-        for web and mobile platforms.
+        I am a Front End Developer focused on building responsive and scalable
+        web and mobile applications using React.js and React Native. My
+        development journey began in 2020 after completing matriculation, during
+        the COVID-19 pandemic. Since then, I have worked on various real-world
+        projects, gaining experience across both mobile and web platforms. My
+        work includes building user interfaces with React, Next.js, TypeScript,
+        Tailwind CSS, MUI, and Redux Toolkit, as well as integrating APIs and
+        handling state management. On the backend, I’ve worked with Node.js,
+        Express.js, and Prisma, and have deployed applications using AWS
+        services and Docker. Projects I’ve contributed to include GTB Pay, GTB
+        Agent, ILBC Quick Learn, Musicfy, Yoom, and Evently, covering areas such
+        as mobile banking, education, entertainment, and communication. I focus
+        on writing maintainable code, ensuring performance and usability, and
+        collaborating effectively within development teams.
       </p>
     </motion.section>
   );

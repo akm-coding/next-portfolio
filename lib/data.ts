@@ -11,6 +11,7 @@ import musicfy from "@/public/musicfy.png";
 import gtbPay from "@/public/gtb_pay.png";
 import gtbAgent from "@/public/gtb_agent.png";
 import ilbc from "@/public/ilbc_quick_learn.png";
+import dashboard from "@/public/travel_agency_dashboard.png";
 
 export const links = [
   {
@@ -41,10 +42,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer",
+    location: "Remote",
+    description:
+      "At Geek Squad Studio, I contribute as a Full-Stack Developer in a fast-paced, innovation-driven remote team. My role involves building seamless, scalable web and mobile applications using a modern tech stack including React, Next.js, Node.js, and TypeScript.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2025 - Present",
+  },
+  {
     title: "Mid-Senior Mobile Developer",
     location: "Remote",
     description:
-      "I'm currently working as a Senior Mobile Developer at Myan Ants, focusing on building scalable mobile applications using React Native, TypeScript, and Expo. I collaborate with cross-functional teams to deliver high-quality features, optimize performance, and enhance user experience.",
+      "I worked as a Senior Mobile Developer at Myan Ants, focusing on building scalable mobile applications using React Native, TypeScript, and Expo. I collaborate with cross-functional teams to deliver high-quality features, optimize performance, and enhance user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "Sept 2024 - Dec 2024",
   },
@@ -123,6 +132,21 @@ export const projectsData = [
     ],
     imageUrl: gtbAgent,
     projectUrl: "https://play.google.com/store/apps/details?id=com.gtbagent",
+  },
+  {
+    title: "Travel Agency Dashboard",
+    description:
+      "Build a dynamic travel dashboard with React, React Router v7, Syncfusion, Appwrite, and Gemini AI!",
+    tags: [
+      "React",
+      "React Router V7",
+      "TypeScript",
+      "Syncfusion",
+      "Appwrite",
+      "Gemini AI",
+    ],
+    imageUrl: dashboard,
+    projectUrl: "https://travel-agency-dashboard-brown.vercel.app/",
   },
   {
     title: "Musicfy",
@@ -218,6 +242,7 @@ export const skillsData = [
   "MySql",
   "MsSql",
   "PostgreSql",
+  "Prisma",
   "Axios",
   "React Query",
   "Firebase",
