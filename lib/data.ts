@@ -69,7 +69,7 @@ export const experiencesData = [
     title: "General Education Development (GED)",
     location: "Online",
     description:
-      "I earned my General Educational Development (GED) diploma in [Year], which certified my academic skills at the high school level. This step launched my journey into computing and continues to inspire my pursuit of new opportunities.",
+      "I earned my General Educational Development (GED) diploma in 2025, which certified my academic skills at the high school level. This step launched my journey into computing and continues to inspire my pursuit of new opportunities.",
     icon: React.createElement(LuGraduationCap),
     date: "May 2024 - Dec 2024",
   },
